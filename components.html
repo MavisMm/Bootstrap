@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="alert alert-danger"><i class="fa-solid fa-home"></i> Hello San Kyi Tar</div>
+                <div class="alert alert-primary alert-dismissible">Hello San Kyi Tar</div>
+                <div class="alert alert-secondary">Hello San Kyi Tar</div>
+            </div>
+        </div>
+    </div> -->
+
+      <div class="p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="alert alert-dark">
+                <i class="fa-solid fa-home"></i>
+                Hello San Kyi Tar
+              </div>
+              <div class="alert alert-danger fade show alert-dismissible">Hello San Kyi tar 
+                <button class="btn-close" data-bs-dismiss="alert"></button>
+              </div>
+              <div class="alert alert-secondary alert-dismissible fade show">
+                <i class="fa-solid fa-cable-car"></i>
+                <button class="btn-close" data-bs-dismiss="alert"></button>
+                Hello San Kyi Tar
+              </div>
+              <div class="alert alert-info alert-dismissible fade show">ha ha ha ha
+                <i class="fa-solid fa-face-angry"></i>
+                 <button class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <button class="btn btn-dark">Click Me</button>
+    <button class="btn btn-outline-danger">Click Me</button>
+    <a href="https://google.com" class="btn btn-info">Google Web</a>
+    <br><br>
+    <button class="btn btn-sm btn-warning">Small</button>
+    <button class="btn btn- btn-info">Normal</button>
+    <button class="btn btn-lg btn-outline-dark">Large</button>
+    <button class="btn btn-sm btn-warning">Small</button>
+    <button class="btn btn- btn-info">Normal</button>
+    <button class="btn btn-lg btn-outline-dark">Large</button>
+    <br><br>
+    <button class="btn btn-info disabled">Disable</button>
+    <a href="https://youtube.com" class="btn btn-dark disabled">Go Youtube</a>
+    <br><br>
+
+    <div class="btn-group">
+        <button class="btn btn-dark">Click Me</button>
+        <button class="btn btn-danger active">Click Me</button>
+        <button class="btn btn-warning">Click Me</button>
+    </div>
+
+    <br><br>
+    <div class="btn-group">
+        <button class="btn btn-outline-danger">Click Me</button>
+        <button class="btn btn-outline-info">Click Me</button>
+        <button class="btn btn-outline-secondary">Click Me</button>
+    </div>
+<br><hr>
+    <h1>Bootstrap List</h1>
+    <ul class="list-group">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+
+
+      <h4>Clickable List</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+          Twitter
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">Google</a>
+        <a href="#" class="list-group-item list-group-item-action">Youtube</a>
+        <a href="htpps://facebook.com" class="list-group-item list-group-item-action">Facebook</a>
+        <a href="https://instagram.com" class="list-group-item list-group-item-action disabled">Instagram</a>
+      </div>
+
+      <br><br><br>
+      <h4>Progress</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-secondary progress-bar-striped" style="width: 39%;">Loading</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-info progress-bar-animated progress-bar-striped" style="width: 73%;">Loading</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" style="width: 10%;">Loading</div>
+      </div>
+      <div class="progress mb-3" style="height: 10px;">
+        <div class="progress-bar bg-primary progress-bar-animated progress-bar-striped" style="width: 90%;">Loading</div>
+      </div>
+      <br><br><br>
+      <h4>Spinner</h4>
+      <div class="spinner-border spinner-border-sm"></div>
+      <div class="spinner-border"></div>
+      <div class="spinner-grow"></div>
+      <br><br>
+      <div class="spinner-border text-danger"></div>
+      <div class="spinner-grow text-info"></div>
+      <br><br>
+      <button class="btn btn-primary">Loading
+        <div class="spinner-border spinner-border-sm"></div>
+      </button>
+      <br><br>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <br><br>
+    <h4>Pagination</h4>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+
+
+  
+      <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

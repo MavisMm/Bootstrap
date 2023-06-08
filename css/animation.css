@@ -1,0 +1,37 @@
+@keyframes h1Ani {
+    0%{
+        transform: translate(0, 0);
+    }
+    
+    25% {
+     transform: translateX(300px);
+     color: blue;
+     font-size: 3rem;
+    }
+
+    50% {
+        transform: translate(300px, 300px);
+        color: blueviolet;
+        font-size: 1rem;
+    }
+
+    
+    75% {
+        transform: translate(0, 300px);
+        color: brown;
+        font-size: 5rem;
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+h1 {
+    /* animation-name: h1Ani;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear; */
+    animation: h1Ani 3s ease-in-out 1s 3 alternate-reverse;
+}
